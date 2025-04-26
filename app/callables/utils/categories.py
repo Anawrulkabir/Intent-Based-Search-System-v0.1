@@ -1,0 +1,132 @@
+categories = [
+    "desktop",
+    "laptop",
+    "component",
+    "monitor",
+    "ups",
+    "phone",
+    "tablet",
+    "office equipment",
+    "camera",
+    "security",
+    "networking",
+    "software",
+    "server & storage",
+    "accessories",
+    "gadget",
+    "gaming",
+    "tv",
+    "appliance",
+]
+
+
+# Categories mapping should be carefully picked because if the NER model identifies them as categories, only products containing these in the category field will be returned.
+categories_mapping = {
+    # Desktop
+    "desktop": "desktop",
+    "pc": "desktop",
+    "computer": "desktop",
+    "workstation": "desktop",
+    # Laptop
+    "laptop": "laptop",
+    "notebook": "laptop",
+    "ultrabook": "laptop",
+    "netbook": "laptop",
+    "chromebook": "laptop",
+    # Component
+    "component": "component",
+    "parts": "component",
+    "hardware": "component",
+    # Monitor
+    "monitor": "monitor",
+    "display": "monitor",
+    "screen": "monitor",
+    "lcd": "monitor",
+    "led": "monitor",
+    "oled": "monitor",
+    "crt": "monitor",
+    # UPS
+    "ups": "ups",
+    "battery": "ups",
+    "ips": "ups",
+    # Phone
+    "phone": "phone",
+    "smartphone": "phone",
+    "mobile": "phone",
+    "cellphone": "phone",
+    # Tablet
+    "tablet": "tablet",
+    "ipad": "tablet",
+    "pad": "tablet",
+    "stylus": "tablet",
+    # Office Equipment
+    "office": "office equipment",
+    "equipment": "office equipment",
+    "printer": "office equipment",
+    "projector": "office equipment",
+    "scanner": "office equipment",
+    "fax": "office equipment",
+    "telephone": "office equipment",
+    "photocopier": "office equipment",
+    "kiosk": "office equipment",
+    # Camera
+    "camera": "camera",
+    "lens": "camera",
+    "tripod": "camera",
+    "lenses": "camera",
+    # Security
+    "security": "security",
+    # Networking
+    "networking": "networking",
+    "router": "networking",
+    "switch": "networking",
+    # Software
+    "software": "software",
+    "adobe": "software",
+    "antivirus": "software",
+    "os": "software",
+    "operating": "software",
+    # Server & Storage
+    "server": "server & storage",
+    "storage": "server & storage",
+    "nas": "server & storage",
+    "raid": "server & storage",
+    # Accessories
+    "accessories": "accessories",
+    "keyboard": "accessories",
+    "mouse": "accessories",
+    "headset": "accessories",
+    "headphones": "accessories",
+    "webcam": "accessories",
+    "microphone": "accessories",
+    "speaker": "accessories",
+    "cable": "accessories",
+    # Gadget
+    "gadget": "gadget",
+    "earphones": "gadget",
+    "earbuds": "gadget",
+    "smartwatch": "gadget",
+    "wearable": "gadget",
+    "watch": "gadget",
+    "band": "gadget",
+    "smartband": "gadget",
+    "bank": "gadget",
+    # Gaming
+    "gaming": "gaming",
+    "chair": "gaming",
+    "console": "gaming",
+    "desk": "gaming",
+    "vr": "gaming",
+    # TV
+    "tv": "tv",
+    "television": "tv",
+    # Appliance
+    "appliance": "appliance",
+    "ac": "appliance",
+    "refrigerator": "appliance",
+    "washing": "appliance",
+    "oven": "appliance",
+    "fan": "appliance",
+    "air": "appliance",
+    "kitchen": "appliance",
+}
